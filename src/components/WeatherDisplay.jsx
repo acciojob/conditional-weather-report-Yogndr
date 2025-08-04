@@ -2,7 +2,7 @@ import React from 'react'
 
 function WeatherDisplay(props) {
     const temp=props.info.temperature
-    const condition=props.info.condition
+    const condition=props.info.conditions
     const color=temp>20? "red":"blue"
   return (
     <>
