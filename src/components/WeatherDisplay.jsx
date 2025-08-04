@@ -7,7 +7,7 @@ function WeatherDisplay(props) {
   return (
     <>
     <p>Temperature: <span style={{color:color}}>{temp}</span></p>
-    <p>Condition:{condition}</p>
+    <p>Condition: {condition}</p>
     {/* <div>
     if({props.temeperature>20})
     <p><span style={{color:"red"}}>{props.temperature}</span></p>
